@@ -1,0 +1,56 @@
+
+body{
+    background-color: rgb(139, 209, 250);
+}
+
+
+
+
+/*   BARRA DE NAVEGACION   */
+
+
+
+.divNav{
+    background-color: rgb(245, 241, 241);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: auto;
+}
+
+.divNavBotones{
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+}
+
+.Nav{
+    padding: 0.5% 1%;
+}
+
+.logoNav{
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 50%;
+    height: 43px;
+    margin-left: 5%;
+}
+
+.logoNav:hover{
+    cursor: pointer;  
+}
+
+.material-symbols-outlined {
+    justify-content: center;
+    padding-top: 25%;
+}
+
+.botonesNav{
+    position:relative;
+    left: 0;
+}
+
+@media only screen and (max-width: 400px) {
+    
+}
