@@ -45,12 +45,32 @@ body{
     justify-content: center;
     padding-top: 25%;
 }
+.menu{
+    display: none;
+}
 
+.botonesNav{
+    display: inline;
+}
 .botonesNav{
     position:relative;
     left: 0;
 }
 
 @media only screen and (max-width: 400px) {
-    
+    .menu{
+        display: flex;
+    }
+    .botonesNav{
+        display: none;
+    }
+    .logoNav{
+        display: none;
+    }
+    .divNav{
+        display: inline-flex;
+        position:absolute;
+        height: fit-content;
+        right: 0;
+    }
 }
